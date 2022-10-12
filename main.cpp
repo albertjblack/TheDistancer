@@ -1,5 +1,8 @@
 /*  
-Jose Robles Tostado (A.K.A. Pepe Tostado || @albertjblack)
+Jose Robles Tostado (A.K.A. Pepe Tostado || @albertjblack).
+The program will read a file (cityInfo.txt) containing city information. 
+This information includes city id, group, location (x, y) and city name.
+We will be able to filter cities and comput the euclidean distance between two cities.
 */
 
 #include <iostream>
@@ -10,9 +13,9 @@ Jose Robles Tostado (A.K.A. Pepe Tostado || @albertjblack)
 #include <cmath>
 #include <algorithm>
 
-/* BASE DECLARATION */
-
+/* BASE DECLARATIONS */
 std::string file_loc {"./cityInfo.txt"};
+
 struct City{
   int id;
   char group;
@@ -20,8 +23,7 @@ struct City{
   std::string city_name{}, city_state{};
 };
 
-/* HEADERS */
-
+/* FUNCTION HEADERS */
 size_t count_entries();
 City* build_entries(size_t count, std::unordered_set<char> &groups);
 void trim_leading(std::string &s, std::string t);
@@ -137,6 +139,7 @@ size_t count_entries(){
   return count;
 }
 
+/* FUNCTION TO BUILD ENTRY LIST FROM FILE */
 City* build_entries(size_t count, std::unordered_set<char> &groups){
   std::ifstream input_file(file_loc);
   std::string line;
@@ -164,6 +167,7 @@ City* build_entries(size_t count, std::unordered_set<char> &groups){
   return entries;
 }
 
+/* FX TO PROMPT THE USER TO TAKE ACTION*/
 void menu(char &opt){
   char tmp_opt ='q';
   do
@@ -181,7 +185,6 @@ void menu(char &opt){
   
   opt = tmp_opt;
 }
-
 
 void display_groups(std::unordered_set<char> const &groups){
   std::cout << "Groups: [";
@@ -206,6 +209,7 @@ void display_cities(City *entries, size_t count){
   }
 }
 
+/* FUNCTION TO DISPLAY CITIES IN A RANGE */
 void display_filter_cities_range(City *entries, size_t count){
   size_t lower_bound, upper_bound;
   do{
@@ -220,7 +224,6 @@ void display_filter_cities_range(City *entries, size_t count){
   std::cout << std::fixed << std::setfill('-');
   std::cout << std::setw(190) << " \n";
   std::cout << std::setfill(' ');
-  // std::cout << std::setw(10) << std::left<< std::left << "ID: " << std::setw(10)<< std::left << "\tGroup: " << std::fixed << std::setprecision(2) << std::setw(20)<< std::left << "\tLongitude: " <<  std::setw(20) << std::setprecision(2)<< std::left << "\tLatitude: " << std::setw(30)<< std::left << "\tName: " << std::setw(20)<< std::left << "\tState:\n";
 
   std::cout << "\n";
   while (lower_bound <= upper_bound && upper_bound <= count){
@@ -233,6 +236,7 @@ void display_filter_cities_range(City *entries, size_t count){
   std::cout << std::setfill(' ');
 }
 
+/* FUNCTION TO DISPLAY CITIES IN A GROUP */
 void display_filter_cities_group(City const *entries, size_t const &count, std::unordered_set<char> const &groups){
   char group {'z'};
   while(groups.find(group) == groups.end()){
@@ -244,7 +248,6 @@ void display_filter_cities_group(City const *entries, size_t const &count, std::
   std::cout << std::fixed << std::setfill('-');
   std::cout << std::setw(190) << " \n";
   std::cout << std::setfill(' ');
-  // std::cout << std::setw(10) << std::left<< std::left << "ID: " << std::setw(10)<< std::left << "\tGroup: " << std::fixed << std::setprecision(2) << std::setw(20)<< std::left << "\tLongitude: " <<  std::setw(20) << std::setprecision(2)<< std::left << "\tLatitude: " << std::setw(30)<< std::left << "\tName: " << std::setw(20)<< std::left << "\tState:\n";
   std::cout << "\n";
   for(size_t idx{}; idx<count; idx++){
     if(entries[idx].group == group){
@@ -257,6 +260,7 @@ void display_filter_cities_group(City const *entries, size_t const &count, std::
   std::cout << std::setfill(' ');
 }
 
+/* FUNCTION TO COMPUTE ECULIDEAN DISTANCE */
 void compute_distance(City city1, City city2){
   printf("City alpha: %s, City beta: %s\n", city1.city_name.c_str(), city2.city_name.c_str());;
   std::string flag {"none"};
@@ -286,11 +290,14 @@ void compute_distance(City city1, City city2){
   return -1;
 }
 
+
+/* FUNCTION TO REMOVE LEADING CHARACTERS */
 void trim_leading(std::string &s, std::string t){
   size_t idx = s.find_first_not_of(t);
   s.erase(0,idx); 
 }
 
+/* QUICK SORT TO SORT ENTRIES BASED ON THEIR ID */
 size_t partition(City *arr, size_t i, size_t j);
 void quick_sort(City*arr, size_t l, size_t r){
   if(l<r){
