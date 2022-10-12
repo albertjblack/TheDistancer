@@ -1,0 +1,129 @@
+107	S	18.3	66.1	San Juan, P.R.
+45	H	21.18	157.5	Honolulu, Hawaii
+54	K	24.33	81.48	Key West, Fla.
+67	M	25.46	80.12	Miami, Fla.
+119	T	27.57	82.27	Tampa, Fla.
+103	S	29.23	98.33	San Antonio, Tex.
+47	H	29.45	95.21	Houston, Tex.
+79	N	29.57	90.04	New Orleans, La.
+6	A	30.16	97.44	Austin, Tex.
+51	J	30.22	81.4	Jacksonville, Fla.
+70	M	30.42	88.03	Mobile, Ala.
+35	E	31.46	106.29	El Paso, Tex.
+109	S	32.05	81.05	Savannah, Ga.
+50	J	32.2	90.12	Jackson, Miss.
+71	M	32.21	86.18	Montgomery, Ala.
+16	C	32.26	104.15	Carlsbad, N.M.
+111	S	32.28	93.42	Shreveport, La.
+34	E	32.38	115.33	El Centro, Calif.
+104	S	32.42	117.1	San Diego, Calif.
+39	F	32.43	97.19	Fort Worth, Tex.
+26	D	32.46	96.46	Dallas, Tex.
+17	C	32.47	79.56	Charleston, S.C.
+87	P	33.29	112.04	Phoenix, Ariz.
+10	B	33.3	86.5	Birmingham, Ala.
+5	A	33.45	84.23	Atlanta, Ga.
+62	L	33.46	118.11	Long Beach, Calif.
+24	C	34	81.02	Columbia, S.C.
+63	L	34.03	118.15	Los Angeles, Calif.
+128	W	34.14	77.57	Wilmington, N.C.
+46	H	34.31	93.03	Hot Springs, Ark.
+2	A	35.05	106.39	Albuquerque, N.M.
+66	M	35.09	90.03	Memphis, Tenn.
+3	A	35.11	101.5	Amarillo, Tex.
+38	F	35.13	111.41	Flagstaff, Ariz.
+19	C	35.14	80.5	Charlotte, N.C.
+83	O	35.26	97.28	Oklahoma City, Okla.
+108	S	35.41	105.57	Santa Fe, N.M.
+94	R	35.46	78.39	Raleigh, N.C.
+57	K	35.57	83.56	Knoxville, Tenn.
+122	T	36.09	95.59	Tulsa, Okla.
+58	L	36.1	115.12	Las Vegas, Nev.
+75	N	36.1	86.47	Nashville, Tenn.
+40	F	36.44	119.48	Fresno, Calif.
+125	V	36.51	75.58	Virginia Beach, Va.
+117	S	37.13	93.17	Springfield, Mo.
+98	R	37.17	79.57	Roanoke, Va.
+106	S	37.2	121.53	San Jose, Calif.
+97	R	37.33	77.29	Richmond, Va.
+127	W	37.43	97.17	Wichita, Kan.
+105	S	37.47	122.26	San Francisco, Calif.
+82	O	37.48	122.16	Oakland, Calif.
+64	L	38.15	85.46	Louisville, Ky.
+18	C	38.21	81.38	Charleston, W. Va.
+99	S	38.35	121.3	Sacramento, Calif.
+101	S	38.35	90.12	St. Louis, Mo.
+96	R	38.46	112.05	Richfield, Utah
+126	W	38.53	77.02	Washington, D.C.
+41	G	39.05	108.33	Grand Junction, Colo.
+53	K	39.06	94.35	Kansas City, Mo.
+22	C	39.08	84.3	Cincinnati, Ohio
+8	B	39.18	76.38	Baltimore, Md.
+95	R	39.3	119.49	Reno, Nev.
+27	D	39.45	105	Denver, Colo.
+49	I	39.46	86.1	Indianapolis, Ind.
+115	S	39.48	89.38	Springfield, Ill.
+86	P	39.57	75.1	Philadelphia, Pa.
+25	C	40	83.01	Columbus, Ohio
+89	P	40.27	79.57	Pittsburgh, Pa.
+77	N	40.44	74.1	Newark, N.J.
+102	S	40.46	111.54	Salt Lake City, Utah
+80	N	40.47	73.58	New York, N.Y.
+60	L	40.5	96.4	Lincoln, Neb.
+20	C	41.09	104.52	Cheyenne, Wyo.
+84	O	41.15	95.56	Omaha, Neb.
+78	N	41.19	72.55	New Haven, Conn.
+23	C	41.28	81.37	Cleveland, Ohio
+28	D	41.35	93.37	Des Moines, Iowa
+120	T	41.39	83.33	Toledo, Ohio
+21	C	41.5	87.37	Chicago, Ill.
+92	P	41.5	71.24	Providence, R.I.
+116	S	42.06	72.34	Springfield, Mass.
+56	K	42.1	121.44	Klamath Falls, Ore.
+29	D	42.2	83.03	Detroit, Mich.
+13	B	42.21	71.05	Boston, Mass.
+30	D	42.31	90.4	Dubuque, Iowa
+1	A	42.4	73.45	Albany, N.Y.
+14	B	42.55	78.5	Buffalo, N.Y.
+42	G	42.58	85.4	Grand Rapids, Mich.
+65	M	43	71.3	Manchester, N.H.
+61	L	43.02	81.34	London, Ont., Can.
+68	M	43.02	87.55	Milwaukee, Wis.
+118	S	43.02	76.08	Syracuse, N.Y.
+48	I	43.3	112.01	Idaho Falls, Idaho
+112	S	43.33	96.44	Sioux Falls, S.D.
+12	B	43.36	116.13	Boise, Idaho
+90	P	43.4	70.15	Portland, Maine
+121	T	43.4	79.24	Toronto, Ont., Can.
+36	E	44.03	123.05	Eugene, Ore.
+55	K	44.15	76.3	Kingston, Ont., Can.
+72	M	44.15	72.32	Montpelier, Vt.
+88	P	44.22	100.21	Pierre, S.D.
+7	B	44.47	117.5	Baker, Ore.
+9	B	44.48	68.47	Bangor, Maine
+32	E	44.54	67	Eastport, Maine
+69	M	44.59	93.14	Minneapolis, Minn.
+100	S	45.18	66.1	St. John, N.B., Can.
+85	O	45.24	75.43	Ottawa, Ont., Can.
+73	M	45.3	73.35	Montreal, Que., Can.
+91	P	45.31	122.41	Portland, Ore.
+59	L	46.24	117.02	Lewiston, Idaho
+44	H	46.35	112.02	Helena, Mont.
+11	B	46.48	100.47	Bismarck, N.D.
+31	D	46.49	92.05	Duluth, Minn.
+93	Q	46.49	71.11	Quebec, Que., Can.
+37	F	46.52	96.48	Fargo, N.D.
+110	S	47.37	122.2	Seattle, Wash.
+114	S	47.4	117.26	Spokane, Wash.
+124	V	48.25	123.21	Victoria, B.C., Can.
+43	H	48.33	109.43	Havre, Mont.
+123	V	49.13	123.06	Vancouver, B.C., Can.
+76	N	49.3	117.17	Nelson, B.C., Can.
+129	W	49.54	97.07	Winnipeg, Man., Can.
+74	M	50.37	105.31	Moose Jaw, Sask., Can.
+15	C	51.01	114.01	Calgary, Alba., Can.
+33	E	53.34	113.28	Edmonton, Alb., Can.
+113	S	57.1	135.15	Sitka, Alaska
+52	J	58.18	134.24	Juneau, Alaska
+4	A	61.13	149.54	Anchorage, Alaska
+81	N	64.25	165.3	Nome, Alaska
