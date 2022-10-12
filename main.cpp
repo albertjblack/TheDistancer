@@ -40,7 +40,7 @@ int main(int argc, char *argv[]){
   std::cout << "Welcome to the Distancer v2.1.3 by Pepe Tostado!";
   size_t entry_count {count_entries()};
   std::unordered_set<char> groups{};
-  if (entry_count == 0){return 0;}
+  if (entry_count == 0){std::cout<<"Sorry, check your entries :(\n"; return 0;}
   City *entries = build_entries(entry_count, groups);
   quick_sort(entries,0,entry_count-1);
   char menu_opt;
